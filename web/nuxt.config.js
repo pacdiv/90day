@@ -3,8 +3,8 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - 90day',
-    title: '90day',
+    titleTemplate: '%s',
+    title: 'ninety',
     htmlAttrs: {
       lang: 'en',
     },
@@ -49,6 +49,11 @@ export default {
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
+    defaultAssets: {
+      font: {
+        family: 'Merriweather',
+      },
+    },
     theme: {
       // dark: true,
       themes: {
@@ -61,8 +66,15 @@ export default {
           error: colors.deepOrange.accent4,
           success: colors.green.accent3,
         },
+        light: {
+          primary: '#fcab10',
+          secondary: '#2b9eb3',
+          error: '#f8333c',
+          success: '#44af69',
+        },
       },
     },
+    treeShake: true,
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
