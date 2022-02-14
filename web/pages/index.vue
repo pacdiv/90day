@@ -7,5 +7,8 @@
 <script>
 export default {
   name: 'IndexPage',
+  asyncData({ redirect }) {
+    redirect('/app/start')
+  },
 }
 </script>

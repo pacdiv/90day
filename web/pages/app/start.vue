@@ -38,7 +38,7 @@
         color="primary"
         depressed
         :disabled="!selectedNeed"
-        :to="`/app/project/new?why=${selectedNeed}`"
+        :to="`/app/projects/new?why=${selectedNeed}`"
       >
         Continue
       </v-btn>
