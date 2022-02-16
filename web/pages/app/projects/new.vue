@@ -1,8 +1,9 @@
 <template>
   <div class="mt-16 d-flex flex-column">
-    <h1 class="text-h4 mb-12">Let’s dive into it!</h1>
+    <p class="text-h6">New project: Step 2 out of 5</h1>
+    <h1 class="text-h4 mb-12">What’s its name?</h1>
     <p class="mb-4">
-      Now is time to lay the first brick of this journey!
+      Now is time to make this first step on this journey!
       <br class="d-none d-md-block" />
       Give your project a name.
     </p>
@@ -18,15 +19,17 @@
         />
       </v-form>
     </div>
-    <v-btn
-      class="new-project__submit body-2 font-weight-bold text-none col-sm-6 col-md-4 ml-0"
-      color="primary"
-      depressed
-      :disabled="!valid"
-      @click.native="onSubmit"
-    >
-      Continue
-    </v-btn>
+    <div class="pa-0 col-md-4 pb-3 pr-md-3">
+      <v-btn
+        class="new-project__submit body-2 font-weight-bold text-none col-12"
+        color="primary"
+        depressed
+        :disabled="!valid"
+        @click.native="onSubmit"
+      >
+        Continue
+      </v-btn>
+    </div>
   </div>
 </template>
 

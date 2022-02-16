@@ -1,5 +1,6 @@
 <template>
   <div class="mt-16 d-flex flex-column">
+    <p class="text-h6">New project: Step 3 out of 5</h1>
     <h1 class="text-h4 mb-12">The North Star metric, your “why”</h1>
     <p class="mb-3">
       Heads to the grindstone, we humans tend to lose focus on the main goal
@@ -31,15 +32,17 @@
         />
       </v-form>
     </div>
-    <v-btn
-      class="body-2 font-weight-bold text-none mb-8 col-sm-6 col-md-4 ml-0"
-      color="primary"
-      depressed
-      :disabled="!valid"
-      @click.native="onSubmit"
-    >
-      Continue
-    </v-btn>
+    <div class="pa-0 col-md-4 pb-3 pr-md-3">
+      <v-btn
+        class="body-2 font-weight-bold text-none col-12"
+        color="primary"
+        depressed
+        :disabled="!valid"
+        @click.native="onSubmit"
+      >
+        Continue
+      </v-btn>
+    </div>
   </div>
 </template>
 

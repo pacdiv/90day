@@ -1,5 +1,6 @@
 <template>
   <div class="mt-16 d-flex flex-column">
+    <p class="text-h6">New project: Step 1 out of 5</h1>
     <h1 class="text-h4 mb-12">Why do you need to use ninety?</h1>
     <p class="mb-8">
       Don’t worry, it’s just a formal start! You’ll still have access to every
@@ -32,9 +33,9 @@
         </div>
       </div>
     </div>
-    <div class="d-flex flex-row justify-sm-center mr-md-3">
+    <div class="pa-0 col-md-4 pb-3 pr-md-3">
       <v-btn
-        class="start__submit body-2 font-weight-bold text-none col-sm-6 col-md-4"
+        class="start__submit body-2 font-weight-bold text-none col-12"
         color="primary"
         depressed
         :disabled="!selectedNeed"
