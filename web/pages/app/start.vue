@@ -50,6 +50,7 @@
 <script lang="js">
 export default {
   name: 'StartPage',
+  middleware: 'auth',
   data() {
     return {
       needs: [

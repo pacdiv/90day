@@ -41,6 +41,7 @@
 <script type="js">
 export default {
   name: 'ProjectStartPage',
+  middleware: 'auth',
   asyncData({ redirect, store }) {
     if (!store.state['new-project'].id) redirect('/app/start')
   },

@@ -49,6 +49,7 @@
 <script lang="js">
 export default {
   name: 'ProjectNorthStarPage',
+  middleware: 'auth',
   asyncData({ redirect, store }) {
     if (!store.state['new-project'].id) redirect('/app/start')
   },

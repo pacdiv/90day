@@ -36,6 +36,7 @@
 <script lang="js">
 export default {
   name: 'NewProjectPage',
+  middleware: 'auth',
   data() {
     return {
       valid: false,
