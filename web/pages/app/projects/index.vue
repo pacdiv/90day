@@ -1,11 +1,11 @@
 <template>
   <div>
-    <p>index page</p>
+    <p>project index page</p>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage',
+  name: 'ProjectsIndexPage',
 }
 </script>

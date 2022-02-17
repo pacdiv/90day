@@ -1,11 +1,9 @@
 <template>
-  <div>
-    <p>index page</p>
-  </div>
+  <div />
 </template>
 
 <script>
 export default {
-  name: 'IndexPage',
+  name: 'AuthCallbackPage',
 }
 </script>

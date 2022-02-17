@@ -39,6 +39,7 @@ import dayjs from 'dayjs'
 
 export default {
   name: 'ProjectPage',
+  middleware: 'auth',
   asyncData({ redirect, store }) {
     if (!store.state['new-project'].id) redirect('/app/start')
   },
